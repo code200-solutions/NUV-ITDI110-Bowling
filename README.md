@@ -36,3 +36,11 @@ Call that function ⁠ sum ⁠ and call it with a few arrays of different le
 ⁠ sum([1,2,3,4]) ⁠
 
 Your function should work with array of any size
+
+# BOWLING KATAS
+
+# Bowling katas
+
+### Objective
+
+Code that calculates score of any bowling game. Based on https://www.wikihow.com/Score-Bowling.
