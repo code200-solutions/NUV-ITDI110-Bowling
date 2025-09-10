@@ -2,17 +2,17 @@
 
 ## Exercice 1
 
-A command that displays “Hello Gaia”
+A command that displays “Hello NUV”
 
 ## Exercice 2
 
-A FUNCTION that when called displays “Hello Gaia” (your code should contain both the function and your calling of it)
+A FUNCTION that when called displays “Hello NUV” (your code should contain both the function and your calling of it)
 
 ## Exercice 3
 
 A function that takes 1 string parameter and returns ⁠ Hello ⁠ and then the value of the parameter.
 
-Exemple: if the function is called ⁠ hello ⁠, running ⁠ hello(“Boris”) ⁠ would return ⁠ hello Boris ⁠ (with a space before)
+Exemple: if the function is called ⁠ hello ⁠, running ⁠ hello(“NUV”) ⁠ would return ⁠ `hello NUV` (with a space before)
 
 ## Exercice 4
 
