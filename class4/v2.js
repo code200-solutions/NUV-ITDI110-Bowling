@@ -1,21 +1,24 @@
-const scoreGame =(game)=> {
+
+
+
+function scoreGame(rolls) {
     let score = 0;
-    for (let index = 0; frame < 10; frame++) {
-        if (this.rolls[index]===10) {
-            score +=10 + roll [index+1] + roll [index] + 2
-            i+1
-        } else if( rolls[index]+ rolle [i+1]===10){
-        score+=10 + rolls [i+2] 
-        } else{
-            score += rolls[i] + rolls [i+1];
+    let index = 0;
+
+    for (let frame = 0; frame < 10; frame++) {
+        if (rolls[index] === 10) {
+            score += 10 + rolls[index + 1] + rolls[index + 2];
+            index += 1;
+        } else if (rolls[index] + rolls[index + 1] === 10) {
+            score += 10 + rolls[index + 2];
+            index += 2;
+        } else {
+            score += rolls[index] + rolls[index + 1];
+            index += 2;
         }
-        return score;
     }
-        
-    
-        
-    
 
+    return score;
+}const rolls = [10, 7, 3, 9, 0, 10, 10, 10, 2, 3, 6, 4, 7, 3, 3];
+console.log(scoreGame(rolls));
 
-    
-    }
