@@ -7,7 +7,7 @@ class FrameV2 {
     this.secondroll = secondroll;
   }
 
-  isSpare(): boolean {
+  isSpare(): boolean { 
     return (
       this.firstroll + (this.secondroll ?? 0) === 10 &&
       this.firstroll !== 10
