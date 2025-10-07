@@ -127,7 +127,6 @@ for (const frameData of scoreOfGame) {
 }
 
 
+
 console.log("Frames:", testGame.frames);
 console.log("Total score:", testGame.score());
-
-
